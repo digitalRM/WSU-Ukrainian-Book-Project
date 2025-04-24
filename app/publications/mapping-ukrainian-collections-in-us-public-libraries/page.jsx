@@ -87,7 +87,6 @@ export default function MappingUkrainianCollections() {
   return (
     <>
       <Heading />
-
       <main className="w-screen bg-[#f3f1e9] overflow-hidden">
         <div className="mx-auto max-w-3xl px-6 lg:px-8 py-24 sm:py-32">
           <div className="mx-auto max-w-2xl lg:max-w-none">
