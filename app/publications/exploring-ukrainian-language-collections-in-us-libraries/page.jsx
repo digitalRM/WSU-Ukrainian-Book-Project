@@ -2,11 +2,9 @@ import React from "react";
 import { Hedvig_Letters_Sans } from "next/font/google";
 import Heading from "@/components/heading";
 import Footer from "@/components/footer";
+import { Inter } from "next/font/google";
 
-const hedvigLettersSans = Hedvig_Letters_Sans({
-  subsets: ["latin"],
-  weight: ["400"],
-});
+const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Exploring Ukrainian Language Collections in US Libraries",
@@ -84,21 +82,21 @@ export default function ExploringUkrainianCollections() {
       <Heading />
 
       <main className="w-screen bg-[#f3f1e9] overflow-hidden">
-        <div className="mx-auto max-w-2xl px-6 lg:px-8 py-24 sm:py-32">
+        <div className="mx-auto max-w-3xl px-6 lg:px-8 py-24 sm:py-32">
           <div className="mx-auto max-w-2xl lg:max-w-none">
             <header className="mb-16 text-center">
-              <span className={hedvigLettersSans.className}>
+              <span className={inter.className}>
                 <p className="mb-2 text-center text-sm text-yellow-950">
                   <time dateTime="2024-11-08">Published: 2024-11-08 </time>
                   <time dateTime="2024-12-28">Last updated: 2024-12-28</time>
                 </p>
               </span>
-              <h1 className="text-3xl font-bold mx-auto text-pretty max-w-xl text-yellow-950 sm:text-4xl mb-6">
+              <h1 className="text-3xl font-semibold tracking-tight mx-auto text-pretty max-w-xl text-yellow-950 sm:text-4xl mb-6">
                 Exploring Ukrainian Language Collections in US Libraries
               </h1>
               <div className="flex flex-col items-center gap-4">
                 <div className="text-sm text-yellow-950">
-                  <span className={hedvigLettersSans.className}>
+                  <span className={inter.className}>
                     <p className="mb-1">Authors:</p>
                     <ul className="list-none flex flex-wrap mx-auto gap-2">
                       <li className="text-center">
@@ -137,9 +135,9 @@ export default function ExploringUkrainianCollections() {
               itemType="http://schema.org/ScholarlyArticle"
             >
               <div className="text-yellow-950/80">
-                <span className={hedvigLettersSans.className}>
+                <span className={inter.className}>
                   <section>
-                    <h2 className="text-xl font-semibold text-yellow-950 mb-4">
+                    <h2 className="text-xl font-semibold tracking-tight text-yellow-950 mb-4">
                       Abstract - Background on the Ukrainian invasion, as it
                       pertains to libraries
                     </h2>
@@ -184,7 +182,7 @@ export default function ExploringUkrainianCollections() {
                   </section>
 
                   <section>
-                    <h2 className="text-xl font-semibold text-yellow-950 mb-4">
+                    <h2 className="text-xl font-semibold tracking-tight text-yellow-950 mb-4">
                       Bibliographic Data At Scale
                     </h2>
                     <div>
@@ -219,7 +217,7 @@ export default function ExploringUkrainianCollections() {
                   </section>
 
                   <section>
-                    <h2 className="text-xl font-semibold text-yellow-950 mb-4">
+                    <h2 className="text-xl font-semibold tracking-tight text-yellow-950 mb-4">
                       Data Workflow
                     </h2>
                     <div>

@@ -27,7 +27,7 @@ export default function Hero() {
       <div className="mx-auto max-w-7xl px-6 pb-24 sm:pb-32 lg:flex lg:px-8 lg:py-40 lg:pt-12 2xl:pt-20">
         <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-xl lg:flex-shrink-0 lg:pt-8">
           <div className="mt-12 sm:mt-32 lg:mt-16 h-12"></div>
-          <h1 className="mt-10 text-2xl font-semibold text-yellow-950 sm:text-5xl">
+          <h1 className="mt-10 text-2xl font-medium text-yellow-950 sm:text-5xl tracking-tighter">
             Working to ensure availability of Ukrainian catalog records.
           </h1>
           <p className="mt-6 text-md sm:text-lg leading-8 text-yellow-950/80">

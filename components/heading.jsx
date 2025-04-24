@@ -41,8 +41,8 @@ export default function Heading() {
       >
         <a href="/" className="-m-1.5 p-1.5">
           <span className="sr-only">WSU - Ukrainian Book Project</span>
-          <h1 className="text-2xl font-semibold text-yellow-950  group ">
-            <span className="">
+          <h1 className="text-2xl font-medium text-yellow-950  group ">
+            <span className="tracking-tighter">
               <span className="sm:contents hidden"></span>
               <span className=" group-hover:text-blue-600 transition-all">
                 Ukrainian

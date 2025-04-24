@@ -1,7 +1,8 @@
 import { Hedvig_Letters_Serif } from "next/font/google";
 import "./globals.css";
-
+import { Source_Serif_4 } from "next/font/google";
 const hedvigLettersSerif = Hedvig_Letters_Serif({ subsets: ["latin"] });
+const sourceSerif4 = Source_Serif_4({ subsets: ["latin"] });
 
 export const metadata = {
   metadataBase: new URL("https://www.ukrainianbookproject.com/"),
@@ -86,7 +87,7 @@ export default function RootLayout({ children }) {
     <html lang="en" className="overflow-x-hidden h-full">
       <body
         style={{ height: "100%", background: "#f3f1e9" }}
-        className={hedvigLettersSerif.className}
+        className={sourceSerif4.className}
       >
         {children}
       </body>

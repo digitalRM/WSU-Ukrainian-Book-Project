@@ -16,7 +16,7 @@ export default function Publications() {
           <div className="flex flex-col items-left text-left">
             <h2
               id="details-heading"
-              className="text-2xl font-bold text-[#f3f1e9]/90 sm:text-4xl"
+              className="text-2xl font-medium tracking-tight text-[#f3f1e9]/90 sm:text-4xl"
             >
               What we've worked on.
             </h2>
@@ -29,6 +29,38 @@ export default function Publications() {
             </p>
           </div>
           <div className="mt-12 grid grid-cols-1 grid-rows-1 gap-y-16 lg:grid-cols-2 lg:gap-x-8">
+            <a href="/publications/standing-with-ukraine">
+              <div className="aspect-h-2 aspect-w-3 w-full overflow-hidden rounded-lg h-[330.41px]">
+                <img
+                  src="./StandingWith.png"
+                  alt="Standing with Ukraine: Building Library Collections to Support New Ukrainian Communities"
+                  className="h-full w-full object-cover object-center grayscale hover:grayscale-0"
+                />
+              </div>
+              <p className="mt-8 text-base text-[#b3b2a8]">
+                <span className={hedvigLettersSans.className}>
+                  Libraries in occupied areas have become spaces of “Information
+                  Warfare” - where books are deliberately destroyed,
+                  particularly books about Ukrainian history. The targeting of
+                  Ukrainian libraries and publishing houses is indicative of
+                  Russia's determination to destroy Ukrainian identity by
+                  targeting Ukraine's national treasure: its literature. Our
+                  presentation covers the history of Ukrainian book collections,
+                  information destruction in war, and the recovery efforts of
+                  today.
+                </span>
+              </p>
+              <span className="mt-4 block text-md font-semibold hover:text-[#f3f1e9]/70 text-[#f3f1e9]/90 w-fit">
+                <span className={hedvigLettersSans.className}>
+                  View Presentation{" "}
+                </span>
+                <ArrowUpRightSquareIcon
+                  aria-hidden="true"
+                  className="inline"
+                  size={16}
+                />
+              </span>
+            </a>
             <a href="/publications/locations-of-ukrainian-language-books-based-on-oclc-data">
               <div className="aspect-h-2 aspect-w-3 w-full overflow-hidden rounded-lg h-[330.41px]">
                 <img
@@ -99,16 +131,17 @@ export default function Publications() {
               </div>
               <p className="mt-8 text-base text-[#b3b2a8]">
                 <span className={hedvigLettersSans.className}>
-                  This poster highlights our early findings about the
-                  availability of Ukrainian language books in libraries across
-                  the United States. Presented at the 2024 Washington State
-                  University Academic Showcase and the 2024 WSU Everett Research
-                  Showcase.
+                  Ukrainian advocacy groups have tried to encourage collecting
+                  at U.S. libraries but have been met with resistance, and
+                  continued efforts are slow. Many US libraries don't know where
+                  to order Ukrainian books, which ones to choose from, or how to
+                  catalog them, especially if they don't have Ukrainian speakers
+                  on staff.
                 </span>
               </p>
               <span className="mt-4 block text-md font-semibold hover:text-[#f3f1e9]/70 text-[#f3f1e9]/90 w-fit">
                 <span className={hedvigLettersSans.className}>
-                  View Poster{" "}
+                  View Presentation{" "}
                 </span>
                 <ArrowUpRightSquareIcon
                   aria-hidden="true"

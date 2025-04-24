@@ -18,6 +18,19 @@ export const metadata = {
 export default function Publications() {
   const publications = [
     {
+      title:
+        "Standing with Ukraine: Building Library Collections to Support New Ukrainian Communities",
+      authors: ["Gabriella Reznowski", "Emily Cukier", "Ruslan Mukhamedvaleev"],
+      year: "2025",
+      abstract:
+        "Libraries in occupied areas have become spaces of “Information Warfare” - where books are deliberately destroyed, particularly books about Ukrainian history. In occupied areas, Russians have repurposed libraries to disseminate propaganda. Today, over 80% of Ukraine's books are published in Kharkiv. The targeting of Ukrainian libraries and publishing houses is indicative of Russia's determination to destroy Ukrainian identity by targeting Ukraine's national treasure: its literature. Our presentation covers the history of Ukrainian book collections, information destruction in war, and the recovery efforts of today.",
+      pdfUrl: "/publications/standing-with-ukraine.pdf",
+      htmlUrl: "/publications/standing-with-ukraine",
+      image: "/StandingWith.png",
+      imageAlt:
+        "Standing with Ukraine: Building Library Collections to Support New Ukrainian Communities",
+    },
+    {
       title: "Mapping Ukrainian Collections in US Public Libraries",
       authors: [
         "Emily Cukier",
@@ -76,7 +89,7 @@ export default function Publications() {
             <div className="flex flex-col items-left text-left">
               <h1
                 id="details-heading"
-                className="text-2xl font-bold text-[#f3f1e9]/90 sm:text-4xl"
+                className="text-2xl font-medium tracking-tight text-[#f3f1e9]/90 sm:text-4xl"
               >
                 Publications
               </h1>
@@ -106,7 +119,7 @@ export default function Publications() {
                   </div>
 
                   <div className="flex flex-col">
-                    <h2 className="text-xl font-bold text-[#f3f1e9]/90 mb-4">
+                    <h2 className="text-xl font-medium tracking-tight text-[#f3f1e9]/90 mb-4">
                       {pub.title}
                     </h2>
 

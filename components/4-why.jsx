@@ -35,7 +35,7 @@ export default function Why() {
           <div className="flex flex-col items-left text-left">
             <h2
               id="details-heading"
-              className="text-2xl font-bold text-[#f3f1e9]/90 sm:text-4xl"
+              className="text-2xl font-medium tracking-tight text-[#f3f1e9]/90 sm:text-4xl"
             >
               Why we're doing this.
             </h2>
@@ -83,7 +83,7 @@ export default function Why() {
                           {stat.label}
                         </div>
                       </span>
-                      <div className="text-5xl font-semibold text-[#f3f1e9]/90 ">
+                      <div className="text-5xl font-semibold text-[#f3f1e9]/90 tracking-tight">
                         {stat.value}
                       </div>
                     </div>

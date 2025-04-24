@@ -1,12 +1,9 @@
 import React from "react";
-import { Hedvig_Letters_Sans } from "next/font/google";
+import { Hedvig_Letters_Sans, Inter } from "next/font/google";
 import Heading from "@/components/heading";
 import Footer from "@/components/footer";
 
-const hedvigLettersSans = Hedvig_Letters_Sans({
-  subsets: ["latin"],
-  weight: ["400"],
-});
+const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Mapping Ukrainian Collections in US Public Libraries",
@@ -92,21 +89,21 @@ export default function MappingUkrainianCollections() {
       <Heading />
 
       <main className="w-screen bg-[#f3f1e9] overflow-hidden">
-        <div className="mx-auto max-w-2xl px-6 lg:px-8 py-24 sm:py-32">
+        <div className="mx-auto max-w-3xl px-6 lg:px-8 py-24 sm:py-32">
           <div className="mx-auto max-w-2xl lg:max-w-none">
             <header className="mb-16 text-center">
-              <span className={hedvigLettersSans.className}>
+              <span className={inter.className}>
                 <p className="mb-2 text-center text-sm text-yellow-950">
                   <time dateTime="2024-05-04">Published: 2024-05-04 </time>
                   <time dateTime="2024-05-04">Last updated: 2024-05-04</time>
                 </p>
               </span>
-              <h1 className="text-3xl font-bold mx-auto text-pretty max-w-xl text-yellow-950 sm:text-4xl mb-6">
+              <h1 className="text-3xl font-semibold tracking-tight mx-auto text-pretty max-w-xl text-yellow-950 sm:text-4xl mb-6">
                 Mapping Ukrainian Collections in US Public Libraries
               </h1>
               <div className="flex flex-col items-center gap-4">
                 <div className="text-sm text-yellow-950">
-                  <span className={hedvigLettersSans.className}>
+                  <span className={inter.className}>
                     <p className="mb-1">Authors:</p>
                     <ul className="list-none flex flex-wrap mx-auto gap-2">
                       <li className="text-center">
@@ -155,9 +152,9 @@ export default function MappingUkrainianCollections() {
               itemType="http://schema.org/ScholarlyArticle"
             >
               <div className="text-yellow-950/80">
-                <span className={hedvigLettersSans.className}>
+                <span className={inter.className}>
                   <section>
-                    <h2 className="text-xl font-semibold text-yellow-950 mb-4">
+                    <h2 className="text-xl font-semibold tracking-tight text-yellow-950 mb-4">
                       Abstract
                     </h2>
                     <div itemProp="abstract">
