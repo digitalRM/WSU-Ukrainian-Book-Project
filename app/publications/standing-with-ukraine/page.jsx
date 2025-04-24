@@ -7,18 +7,18 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title:
-    "Standing with Ukraine: Building Library Collections to Support New Ukrainian Communities​",
+    "Standing with Ukraine: Building Library Collections to Support New Ukrainian Communities",
   description:
     "An examination of the impact of war on Ukrainian libraries and culture, and strategies for supporting Ukrainian communities through library collections.",
   openGraph: {
     title:
-      "Standing with Ukraine: Building Library Collections to Support New Ukrainian Communities​",
+      "Standing with Ukraine: Building Library Collections to Support New Ukrainian Communities",
     description:
       "An examination of the impact of war on Ukrainian libraries and culture, and strategies for supporting Ukrainian communities through library collections.",
     type: "article",
     authors: ["Gabriella Reznowski", "Emily Cukier", "Ruslan Mukhamedvaleev"],
-    publishedTime: "2024-12-15",
-    modifiedTime: "2024-12-28",
+    publishedTime: "2025-04-24",
+    modifiedTime: "2025-04-24",
   },
   authors: [
     { name: "Gabriella Reznowski", url: "https://libraries.wsu.edu/" },
@@ -37,14 +37,14 @@ export const metadata = {
   ],
   other: {
     citation_title:
-      "Standing with Ukraine: Building Library Collections to Support New Ukrainian Communities​",
+      "Standing with Ukraine: Building Library Collections to Support New Ukrainian Communities",
     citation_author: [
       "Gabriella Reznowski",
       "Emily Cukier",
       "Ruslan Mukhamedvaleev",
     ],
-    citation_publication_date: "2024-12-15",
-    citation_journal_title: "Ukrainian Book Project",
+    citation_publication_date: "2025-04-24",
+    citation_journal_title: "Washington Library Association Conference",
     citation_author_institution: [
       "WSU Libraries",
       "WSU Libraries",
@@ -58,20 +58,20 @@ export const metadata = {
     citation_fulltext_html_url:
       "https://www.ukrainianbookproject.com/publications/standing-with-ukraine",
     "dc.title":
-      "Standing with Ukraine: Building Library Collections to Support New Ukrainian Communities​",
+      "Standing with Ukraine: Building Library Collections to Support New Ukrainian Communities",
     "dc.creator": [
       "Gabriella Reznowski",
       "Emily Cukier",
       "Ruslan Mukhamedvaleev",
     ],
-    "dc.date": "2024-12-15",
-    "dc.publisher": "Ukrainian Book Project",
+    "dc.date": "2025-04-24",
+    "dc.publisher": "Washington Library Association Conference",
     "dc.type": "Presentation",
     "dc.format": "text/html",
     "dc.language": "en",
     "dc.rights": "All rights reserved",
-    "article:published_time": "2024-12-15",
-    "article:modified_time": "2024-12-28",
+    "article:published_time": "2025-04-24",
+    "article:modified_time": "2025-04-24",
     "article:section": "Research",
     "article:tag": "Ukrainian Libraries",
   },
